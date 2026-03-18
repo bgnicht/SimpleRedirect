@@ -1,0 +1,11 @@
+<input type="text" id="locationReplaceUrl" placeholder="Enter URL">
+<button onclick="windowlocationreplace()">Window Location Replace</button>
+
+<script>
+  function windowlocationreplace(){
+    var url = document.getElementById('locationReplaceUrl').value;
+    if(url){
+        window.location.replace(url);
+    }
+}
+</script>
